@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.header-wrapper {
+    display: grid;
+    width: 35%;
+    gap: 40px;
+    height: fit-content;
+
+    .benefits {
+        display: flex;
+        gap: 10px;
+        height: 40%;
+        align-items: center;
+
+
+        img{
+            align-self: center;
+        }   
+    }
+
+    .benefits-infos {
+            display: flex;
+            gap: 10px;
+            width: 25%;
+            
+        }
+
+    button {
+        display: flex;
+        gap: 10px;
+        position: relative;
+       background-color: #00b1d3;
+       width: 60%;
+       height: 85%;
+       padding: 5px;
+       border-radius: 10px;
+       font-family: 'Sora';
+       font-size: 23px;
+       color: #fff;
+       box-shadow: 2px 3px  #004e69;
+       justify-content: center;
+       align-items: center;
+       img {
+        align-self: center;
+         width: 8%;
+       }
+
+    }
+}
+
+.header-info  {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.header-info img {
+    width: 5%;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.header-wrapper button:hover {
+        transform: translateY(2px);
+        box-shadow: 0 1px #004e69;
+        transition: all 0.2s ease-in-out;
+    }
+
+.courses-wrapper{
+    display: grid;
+    gap: 10px;
+    
+}
+
+.courses-row {
+    display: flex;
+    gap: 10px;
+}
+.courses-info {
+    display: grid;
+    background-color: #2b323c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+    img {
+        display: flex;
+        padding-bottom: 10px;
+    } 
+}
+
+.courses-info ul {
+  list-style: none; 
+  padding-left: 0;
+}
+
+
+li {
+    font-size: 13.3px;
+}
+
+ ul li {
+  position: relative;
+  padding-left: 18px; 
+}
+
+.courses-info ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 13px;
+  height: 13px;
+  background-image: url('https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/62cef75c0262284af718645d_checked.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.legal-text {
+    display: flex;
+    width: 100%;
+    background-color: #10151b;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    color: #a5a5a5;
+
+    p {
+        padding: 0 250px 0 250px;
+    }
+    
+}
